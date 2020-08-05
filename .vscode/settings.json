@@ -1,0 +1,12 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/.eslintcache": true,
+    "**/.nyc_output": true,
+    "coverage": true,
+    "dist": true,
+    "**/node_modules": true,
+    "**/pnpm-lock.yaml": true
+  }
+}

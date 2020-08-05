@@ -1,0 +1,231 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/ferdipr/Sources.localized/gitlab/transactional-backbone
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 72
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 18
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: solid
+    title: null
+    style:
+      border: 0px black solid
+      boxShadow: none
+      margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 5px
+      bottom: 5px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Menlo, Monaco, Ubuntu Mono, Lucida Console, Monospace"
+  
+  # The size of the font
+  fontSize: 14
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1
+    content: 'prantlf@noto:~/Sou...l-backbone '
+  - delay: 50
+    content: 'n'
+  - delay: 50
+    content: o
+  - delay: 50
+    content: d
+  - delay: 50
+    content: e
+  - delay: 50
+    content: ' '
+  - delay: 50
+    content: t
+  - delay: 50
+    content: e
+  - delay: 50
+    content: s
+  - delay: 50
+    content: t
+  - delay: 50
+    content: /
+  - delay: 50
+    content: s
+  - delay: 50
+    content: i
+  - delay: 50
+    content: m
+  - delay: 50
+    content: 'ulate.js '
+  - delay: 300
+    content: "\r\n"
+  - delay: 192
+    content: "\e[?1049h\e[?1h\e=\e[1;30r\e[?25l\e[1;1H\e[H\e[2J\e]0;File System Browser\a\e7\e[2;1H\e[1C\e[32mNormal Backbone       \e[m\e8\e7\e[4;1H\e(0lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk\e[5;1H\e[5;1Hx\e[1C\e(BPath:\e[5C/\e[32C\e(0x\e[6;1H\e[6;1Htqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqu\e[7;1H\e[7;1Hx\e[1C\e(BLocation:\e[34C\e(0x\e[8;1H\e[8;1Htqqqqqqqqqqqqqqwqqqqqqqqqqqqqqqqqqqqqqqqqqqqqu\e[9;1H\e[9;1Hx\e[1C\e(BAdd:\e[9C\e(0x\e[1C\e(BContent:\e[20C\e(0x\e[10;1H\e[10;1Hx\e[14Ctqqqqqqqqqqqqqqwqqqqqqqqqqqqqqu\e[11;1H\e[11;1Hx\e[14Cx\e[1C\e(BName\e[9C\e(0x\e[1C\e(BSize\e[9C\e(0x\e[12;1H\e[12;1Hx\e[14Ctqqqqqqqqqqqqqqvqqqqqqqqqqqqqqu\e[13;1H\e[13;1Hx\e[14Cx\e[29Cx\e[14;1H\e[14;1Hx\e[14Cx\e[29Cx\e[15;1H\e[15;1Hx\e[14Cx\e[29Cx\e[16;1H\e[16;1Hx\e[14Cx\e[29Cx\e[17;1H\e[17;1Hx\e[14Cx\e[29Cx\e[18;1H\e[18;1Hmqqqqqqqqqqqqqqvqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj\e(B\e8\e7\e[15;1H\e[15;14H\e(0lqvqqqqqqqqqqk\e[16;1H\e[16;14Hx\e[32m\e(B Loading... \e[m\e(0x\e[17;1H\e[17;14Hmqwqqqqqqqqqqj\e(B\e8"
+  - delay: 505
+    content: "\e7\e[7;1H\e[7;13H\e[33mtest\e[m\e8"
+  - delay: 497
+    content: "\e7\e[5;1H\e[5;14H\e[33mhome\e[m/\e[33mroot\e[m\e8"
+  - delay: 506
+    content: "\e7\e[10;1H\e[10;31H\e(0q\e[1Cw\e[11;1H\e[11;31H\e(B \e[1C\e(0x\e(B Size\e[12;1H\e[12;31H\e(0q\e[1Cn\e[13;1H\e[13;18H\e[33m\e(Blib\e[m/\e[11C\e(0x\e[14;1H\e[14;16Htqqqqqqqqqqqqqqqqnqqqqqqqqqqqqu\e[15;1H\e[15;33Hx\e[16;1H\e[16;28Hqqqqqnqqqqqqqqqqqqu\e[17;1H\e[17;33Hx\e[1C\e(B1\e[1CKB\e[18;1H\e[18;33H\e(0v\e(B\e8"
+  - delay: 506
+    content: "\e7\e[10;1H\e[10;4H\e[33mdirectory  \e[m\e8\e7\e[11;1H\e[11;4H\e[33mfile       \e[m\e8\e7\e[15;1H\e[15;14H  \e(0x\e(B \e[33mspecs\e[m/    \e[16;1H\e[16;14H  \e(0tqqqqqqqqqqq\e[17;1H\e[17;14H\e(B  \e(0x\e(B \e[33mindex.js\e[m  \e8"
+  - delay: 1040
+    content: "\e[?1l\e>\e[?12l\e[?25h\e[H\e[2J\e[?1049l"
+  - delay: 10
+    content: 'prantlf@noto:~/Sou...l-backbone '
+  - delay: 50
+    content: T
+  - delay: 50
+    content: R
+  - delay: 50
+    content: A
+  - delay: 50
+    content: 'N'
+  - delay: 50
+    content: S
+  - delay: 50
+    content: A
+  - delay: 50
+    content: C
+  - delay: 50
+    content: T
+  - delay: 50
+    content: I
+  - delay: 50
+    content: O
+  - delay: 50
+    content: 'N'
+  - delay: 50
+    content: S
+  - delay: 50
+    content: '='
+  - delay: 50
+    content: t
+  - delay: 50
+    content: r
+  - delay: 50
+    content: u
+  - delay: 50
+    content: e
+  - delay: 50
+    content: ' '
+  - delay: 50
+    content: 'n'
+  - delay: 50
+    content: o
+  - delay: 50
+    content: d
+  - delay: 50
+    content: e
+  - delay: 50
+    content: ' '
+  - delay: 50
+    content: t
+  - delay: 50
+    content: e
+  - delay: 50
+    content: s
+  - delay: 50
+    content: t
+  - delay: 50
+    content: /
+  - delay: 50
+    content: s
+  - delay: 50
+    content: i
+  - delay: 50
+    content: 'mulate.js '
+  - delay: 50
+    content: "\r\n"
+  - delay: 127
+    content: "\e[?1049h\e[?1h\e=\e[1;30r\e[?25l\e[1;1H\e[H\e[2J\e]0;File System Browser\a\e7\e[2;1H\e[1C\e[32mTransactional Backbone\e[m\e8\e7\e[4;1H\e(0lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk\e[5;1H\e[5;1Hx\e[1C\e(BPath:\e[5C/\e[32C\e(0x\e[6;1H\e[6;1Htqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqu\e[7;1H\e[7;1Hx\e[1C\e(BLocation:\e[34C\e(0x\e[8;1H\e[8;1Htqqqqqqqqqqqqqqwqqqqqqqqqqqqqqqqqqqqqqqqqqqqqu\e[9;1H\e[9;1Hx\e[1C\e(BAdd:\e[9C\e(0x\e[1C\e(BContent:\e[20C\e(0x\e[10;1H\e[10;1Hx\e[14Ctqqqqqqqqqqqqqqwqqqqqqqqqqqqqqu\e[11;1H\e[11;1Hx\e[14Cx\e[1C\e(BName\e[9C\e(0x\e[1C\e(BSize\e[9C\e(0x\e[12;1H\e[12;1Hx\e[14Ctqqqqqqqqqqqqqqvqqqqqqqqqqqqqqu\e[13;1H\e[13;1Hx\e[14Cx\e[29Cx\e[14;1H\e[14;1Hx\e[14Cx\e[29Cx\e[15;1H\e[15;1Hx\e[14Cx\e[29Cx\e[16;1H\e[16;1Hx\e[14Cx\e[29Cx\e[17;1H\e[17;1Hx\e[14Cx\e[29Cx\e[18;1H\e[18;1Hmqqqqqqqqqqqqqqvqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj\e(B\e8\e7\e[15;1H\e[15;14H\e(0lqvqqqqqqqqqqk\e[16;1H\e[16;14Hx\e[32m\e(B Loading... \e[m\e(0x\e[17;1H\e[17;14Hmqwqqqqqqqqqqj\e(B\e8"
+  - delay: 2024
+    content: "\e7\e[5;1H\e[5;14H\e[33mhome\e[m/\e[33mroot\e[m\e8\e7\e[7;1H\e[7;13H\e[33mtest\e[m\e8\e7\e[10;1H\e[10;4H\e[33mdirectory  \e[m\e8\e7\e[11;1H\e[11;4H\e[33mfile       \e[m\e8\e7\e[10;1H\e[10;31H\e(0q\e[1Cw\e[11;1H\e[11;31H\e(B \e[1C\e(0x\e(B Size\e[12;1H\e[12;31H\e(0q\e[1Cn\e[13;1H\e[13;18H\e[33m\e(Blib\e[m/\e[11C\e(0x\e[14;1H\e[14;16Htqqqqqqqqqqqqqqqqnqqqqqqqqqqqqu\e[15;1H\e[15;33Hx\e[16;1H\e[16;28Hqqqqqnqqqqqqqqqqqqu\e[17;1H\e[17;33Hx\e[1C\e(B1\e[1CKB\e[18;1H\e[18;33H\e(0v\e(B\e8\e7\e[15;1H\e[15;14H  \e(0x\e(B \e[33mspecs\e[m/    \e[16;1H\e[16;14H  \e(0tqqqqqqqqqqq\e[17;1H\e[17;14H\e(B  \e(0x\e(B \e[33mindex.js\e[m  \e8"
+  - delay: 1000
+    content: "\e[?1l\e>\e[?12l\e[?25h\e[H\e[2J\e[?1049l"
+  - delay: 1
+    content: "\r\n"
